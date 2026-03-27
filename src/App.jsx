@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Terminal, ArrowRight, GitFork, Link2, Mail, Code2, Database, Cpu } from 'lucide-react';
+import { Terminal, ArrowRight, ExternalLink as GitHubIcon, Link2 as LinkedInIcon, Mail, Code2, Database, Cpu } from 'lucide-react';
 
 // --- DATA ---
 const PORTFOLIO_DATA = {
@@ -286,9 +286,9 @@ export default function App() {
             <p className="text-[#6b7a99] font-mono text-sm">Currently open for internships & research roles.</p>
           </div>
           <div className="flex gap-4">
-            <a href="#" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><Mail size={20} /></a>
-            <a href="#" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><GitFork size={20} /></a>
-            <a href="#" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><Link2 size={20} /></a>
+            <a href="mailto:" aria-label="Email Contact" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><Mail size={20} /></a>
+            <a href="https://github.com/KshitijMishra13" aria-label="GitHub" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><GitHubIcon size={20} /></a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><LinkedInIcon size={20} /></a>
           </div>
         </div>
       </footer>
