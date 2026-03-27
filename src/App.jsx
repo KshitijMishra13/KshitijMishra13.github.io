@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Terminal, ArrowRight, Github, Linkedin, Mail, Code2, Database, Cpu } from 'lucide-react';
+import { Terminal, ArrowRight, GitFork, Link2, Mail, Code2, Database, Cpu } from 'lucide-react';
 
 // --- DATA ---
 const PORTFOLIO_DATA = {
@@ -287,8 +287,8 @@ export default function App() {
           </div>
           <div className="flex gap-4">
             <a href="#" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><Mail size={20} /></a>
-            <a href="#" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><Github size={20} /></a>
-            <a href="#" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><Linkedin size={20} /></a>
+            <a href="#" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><GitFork size={20} /></a>
+            <a href="#" className="p-3 border border-[#00d4ff]/20 text-[#6b7a99] hover:text-[#00d4ff] hover:border-[#00d4ff] transition-colors rounded"><Link2 size={20} /></a>
           </div>
         </div>
       </footer>
